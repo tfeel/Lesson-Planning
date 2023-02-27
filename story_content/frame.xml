@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
-    <layout name="npnxnanbsnfns00001100101" font="Lato" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100101" font="Lato" controllayout="pxabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npxnabnsnfns00001100101" font="Lato" controllayout="npxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="npnxnanbnsnfns00001100101" font="Lato" controllayout="npnxnanbnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
-    <layout name="pxabnsnfns00001100100" font="Lato" controllayout="pxabnsnfns00001100100" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
+    <layout name="npnxnanbsnfns00000100101" font="Lato" controllayout="npnxnanbsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
+    <layout name="pxabnsnfns00000100101" font="Lato" controllayout="pxabnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
+    <layout name="npxnabnsnfns00000100101" font="Lato" controllayout="npxnabnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
+    <layout name="npnxnanbnsnfns00000100101" font="Lato" controllayout="npnxnanbnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
+    <layout name="pxabnsnfns00000100100" font="Lato" controllayout="pxabnsnfns00000100100" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,13 +13,13 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Lesson Planning Course" />
+              <option name="title_text" value="Lesson Planning Course Pt 2" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="true">
+          <option name="sidebar_enabled" value="false">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -28,7 +28,7 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="true" group="linkright" />
-              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="outline" value="false" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
@@ -48,7 +48,7 @@
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option name="flow" value="free" />
+          <option name="flow" value="restricted" />
           <option name="wraplistitems" value="false" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
@@ -93,7 +93,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00001100101">
+    <control_layout name="npnxnanbsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -111,14 +111,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100101">
+    <control_layout name="pxabnsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -136,14 +136,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00001100101">
+    <control_layout name="npxnabnsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -161,14 +161,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00001100101">
+    <control_layout name="npnxnanbnsnfns00000100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -186,14 +186,14 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00001100100">
+    <control_layout name="pxabnsnfns00000100100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
@@ -211,7 +211,7 @@
       <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
+      <control name="outline" enabled="false">
         <controls>
           <control name="search" enabled="false" />
         </controls>
@@ -220,7 +220,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns00001100101">
+    <colorscheme name="pxabnsnfns00000100101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1397,7 +1397,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns00001100101">
+    <string_table name="pxabnsnfns00000100101">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1563,19 +1563,6 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="" displaytext="Untitled Scene" expand="true" type="slide" />
-        <slidelink slideid="_player.65U3LW0hDfN" displaytext="6FunctionClicknReveal" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.65U3LW0hDfN.6MYOpokzuMw" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.65U3LW0hDfN.6bwoXp540vL" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.65U3LW0hDfN.6NZ2sPIE7M0" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.65U3LW0hDfN.6MUchkQjmWK" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.65U3LW0hDfN.5pSVARgt7fA" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.65U3LW0hDfN.5mlKPBiBepe" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.65U3LW0hDfN.5enQvyx8Ulr" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.65U3LW0hDfN.6NVogdpmzPe" displaytext="Untitled Slide" expand="false" type="slide" />
-          </links>
-        </slidelink>
         <slidelink slideid="_player.5tdxztVVdgu" displaytext="Lesson Planning Firki Course (1)" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5tdxztVVdgu.5wQBkZhXd2H" displaytext="Untitled Slide" expand="false" type="slide" />
@@ -1599,9 +1586,45 @@
             <slidelink slideid="_player.5tdxztVVdgu.6Rt196cFeLn" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5tdxztVVdgu.6kwUuvewee8" displaytext="Pick One" expand="false" type="slide" />
             <slidelink slideid="_player.5tdxztVVdgu.5ezXM4vIHbn" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.69Wl1b5ltTH" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6jAmeJlVC2H" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5rHvubqQSfM" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6GoSLiYS5ab" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6AODuiguOzS" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6Eu3BtMJ7LK" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6jdixcTbaCe" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5mqO846hHR6" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.63smKwkGBKZ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.66kF7ov3oON" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6Zl50SJhGw1" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5ay2srBu9ck" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5ipM7mQLRkL" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6bBoxr3jIJC" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6BTtFL0pMHW" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6hsuVNoN9eR" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6CqP7x6dIn5" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.65fNuByDKsm" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6H6FGHZYm0F" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6Fu8WiPthN6" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6roWyo4FygY" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6PorZYtHXnl" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6jzstEZgRIE" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6roILFDvNzR" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6iy4nhT7np2" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.61Hh27fK1Ar" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.665k7vrwYpH" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6buDzz1FL92" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6OsZaPawI2o" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6VhAHZMNyyd" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.66GRmUhRopc" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6dSAHeggDdj" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6XsMi6oI1yq" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.68Hc2Jmers8" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6q5a5xgNvHG" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5lrWWIrPOrG" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.64jdpX9Qb3Y" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="" displaytext="Lesson Planning Firki Course (2)" expand="true" type="slide" />
       </links>
     </outline>
   </nav_data>
