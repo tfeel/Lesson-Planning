@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Lesson Planning" />
+              <option name="title_text" value="Lesson Planning Course" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1563,21 +1563,7 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.64oIbPDVoP0" displaytext="Lesson Planning Firki Course" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.64oIbPDVoP0.6NWKz3RXDYz" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.64oIbPDVoP0.5vQ1i61G5rJ" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.64oIbPDVoP0.6RZkzot0ETn" displaytext="RELATED CONTENT INTERACTION" expand="false" type="slide" />
-            <slidelink slideid="_player.64oIbPDVoP0.5VX0Xl8f6wz" displaytext="Untitled Slide" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.636OsTtx7Pm" displaytext="Untitled Scene" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.636OsTtx7Pm.5fp7RKVYW3R" displaytext="Opening" expand="false" type="slide" />
-            <slidelink slideid="_player.636OsTtx7Pm.6JPigppQnzD" displaytext="Instructions" expand="false" type="slide" />
-            <slidelink slideid="_player.636OsTtx7Pm.6RYdT4O43eS" displaytext="Document and Print" expand="false" type="slide" />
-          </links>
-        </slidelink>
+        <slidelink slideid="" displaytext="Untitled Scene" expand="true" type="slide" />
         <slidelink slideid="_player.65U3LW0hDfN" displaytext="6FunctionClicknReveal" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.65U3LW0hDfN.6MYOpokzuMw" displaytext="Untitled Slide" expand="false" type="slide" />
@@ -1590,6 +1576,32 @@
             <slidelink slideid="_player.65U3LW0hDfN.6NVogdpmzPe" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
+        <slidelink slideid="_player.5tdxztVVdgu" displaytext="Lesson Planning Firki Course (1)" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5tdxztVVdgu.5wQBkZhXd2H" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.652q6T9CobN" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5hNkZx6FSQm" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6TAxX4djNBE" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6bRwnOjafml" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6LJVl1RtA4f" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6d1tpiTVqjb" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5urNFNas0Bg" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6BTApqp3pK0" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5YsjicJf1ms" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5epq95PmqXu" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5lkJPNQfvEB" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5sDZSviZSVO" displaytext="Pick One" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6JnNrL2H2Nw" displaytext="Pick One" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6lm2OsBNnWK" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5myNN5Oy5vp" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6NVGARFSEgs" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.65s8M3Lh6xH" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6Rt196cFeLn" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6kwUuvewee8" displaytext="Pick One" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5ezXM4vIHbn" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="" displaytext="Lesson Planning Firki Course (2)" expand="true" type="slide" />
       </links>
     </outline>
   </nav_data>
