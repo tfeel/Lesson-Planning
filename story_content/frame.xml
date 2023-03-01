@@ -6,6 +6,7 @@
     <layout name="npxnabnsnfns00000100101" font="Lato" controllayout="npxnabnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
     <layout name="npnxnanbnsnfns00000100101" font="Lato" controllayout="npnxnanbnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
     <layout name="pxabnsnfns00000100100" font="Lato" controllayout="pxabnsnfns00000100100" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
+    <layout name="pnxanbnsnfns00000100101" font="Lato" controllayout="pnxanbnsnfns00000100101" colorscheme="pxabnsnfns00000100101" string_table="pxabnsnfns00000100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +14,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Lesson Planning Course Pt 2" />
+              <option name="title_text" value="Lesson Planning Course" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -35,7 +36,7 @@
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="none" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -217,6 +218,31 @@
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns00000100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>
@@ -1565,64 +1591,78 @@
       <links>
         <slidelink slideid="_player.5tdxztVVdgu" displaytext="Lesson Planning Firki Course (1)" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5tdxztVVdgu.5wQBkZhXd2H" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.652q6T9CobN" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5hNkZx6FSQm" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6TAxX4djNBE" displaytext="Text Entry" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6bRwnOjafml" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6LJVl1RtA4f" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6d1tpiTVqjb" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5urNFNas0Bg" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6BTApqp3pK0" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5YsjicJf1ms" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5epq95PmqXu" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5lkJPNQfvEB" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5wQBkZhXd2H" displaytext="Title" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.652q6T9CobN" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5rShcGKNejk" displaytext="Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5yJqwErl6bP" displaytext="Duration" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5hNkZx6FSQm" displaytext="Feel" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6bRwnOjafml" displaytext="Impactful Lessons" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6LJVl1RtA4f" displaytext="Why Plan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6d1tpiTVqjb" displaytext="Lesson Vision" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5urNFNas0Bg" displaytext="Lesson Method" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6BTApqp3pK0" displaytext="Stretch Break" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5YsjicJf1ms" displaytext="Imagine" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5epq95PmqXu" displaytext="Lesson Vision Components" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5lkJPNQfvEB" displaytext="Lesson Objective" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6OMfCFdtcux" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5tdxztVVdgu.5sDZSviZSVO" displaytext="Pick One" expand="false" type="slide" />
             <slidelink slideid="_player.5tdxztVVdgu.6JnNrL2H2Nw" displaytext="Pick One" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6lm2OsBNnWK" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5myNN5Oy5vp" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6NVGARFSEgs" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.65s8M3Lh6xH" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6Rt196cFeLn" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6kwUuvewee8" displaytext="Pick One" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5ezXM4vIHbn" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.69Wl1b5ltTH" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6jAmeJlVC2H" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5rHvubqQSfM" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6GoSLiYS5ab" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6AODuiguOzS" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6Eu3BtMJ7LK" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6jdixcTbaCe" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5mqO846hHR6" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.63smKwkGBKZ" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.66kF7ov3oON" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6Zl50SJhGw1" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5ay2srBu9ck" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5ipM7mQLRkL" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6bBoxr3jIJC" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6BTtFL0pMHW" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6hsuVNoN9eR" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6CqP7x6dIn5" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.65fNuByDKsm" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6H6FGHZYm0F" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6Fu8WiPthN6" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6roWyo4FygY" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6PorZYtHXnl" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6jzstEZgRIE" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6roILFDvNzR" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6iy4nhT7np2" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.61Hh27fK1Ar" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.665k7vrwYpH" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6buDzz1FL92" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6OsZaPawI2o" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6VhAHZMNyyd" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.66GRmUhRopc" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6dSAHeggDdj" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6XsMi6oI1yq" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.68Hc2Jmers8" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.6q5a5xgNvHG" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.5lrWWIrPOrG" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tdxztVVdgu.64jdpX9Qb3Y" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6lm2OsBNnWK" displaytext="Resources" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6CKI42CPWEb" displaytext="Writing Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5myNN5Oy5vp" displaytext="Assessments" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6NVGARFSEgs" displaytext="Example of Assessments" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5o1KSH0ok4o" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5hQiiHiEpRf" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.65s8M3Lh6xH" displaytext="Key Points" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6Rt196cFeLn" displaytext="Examples of Key Points" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6OAnmfkR3RM" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.65xtRri75OM" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.691aRlSYVbq" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6N0UGNn4REl" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5Vpy7AYwweV" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5mlL4mxSJTB" displaytext="Opening" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6cLzFfz3SPC" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6gRNhpLP2xk" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6UnFDBmklHq" displaytext="Opening Checklist" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6fToNjVRzwr" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6Tt8mqjBl8K" displaytext="INM" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5xeV8LTCh2B" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6QxGIoQ1fHQ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6SRQvCIIHZB" displaytext="INM Checklist" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6NGrjIte9sf" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5rX77aOam8U" displaytext="GP" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6gG1yfZoZQ6" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5enqgOuX8Wk" displaytext="GP Checklist" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5tcqk8iD5hK" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6kl9DiFJHbv" displaytext="IP" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5dmuxEt01iX" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5b4n3WPnR6T" displaytext="IP Checklist" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6ixRpiwbavD" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6doFeEKZqot" displaytext="Closing" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6OCyP0MgylI" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6MezFtwSR9j" displaytext="Closing Checklist" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6lfdt1S2qVI" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.65EjIngqT3S" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6nuLv4jXZI4" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5xuFc12fVFO" displaytext="Do" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5hlosCsGqQL" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6AB92PDuw2z" displaytext="Writing Lesson Vision" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6b3qHgEPi9P" displaytext="Writing Lesson Method" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6IfH8NDFl3r" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5luE7ieMZv3" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5tlPhxqzecv" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6TaCSnAEzqm" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5rReATOJVmq" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6R0whqT6Aa2" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.5Y2DnozzzN9" displaytext="Assess" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6XiZeb3DrwF" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6RpZahYLnE6" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6MYU1SdPLlK" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6bgMpkROIMo" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6D8B3E74H0V" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6rSoNdJ2O0N" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6ZXBkBxrQgD" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tdxztVVdgu.6CnoOIr9gYp" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
